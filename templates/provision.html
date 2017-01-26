@@ -15,11 +15,11 @@
           <option value="contrail-3-0-3">Contrail 3.0.3</option>
           <option value="contrail-3-1">Contrail 3.1</option>
           <option value="contrail-3-2">Contrail 3.2</option>
-        </select> &nbsp;Build Number <input type="text" name="build-number" style="height:18;width:30" required value""></p>
+        </select> &nbsp;Build Number <input type="text" name="build-number" style="height:18;width:30" required value""> &nbsp;OpenStack Release <select name="release"><option value="kilo">kilo</option><option value="liberty">liberty</option><option value="mitaka">mitaka</option></select>
 	<p>Testbed File <input type="file" name="testbed-file" value="fileupload" id="fileupload"></p>
         <p></p>
-        <p><button type="reimage" value="reimage" style="height:25;width:150">Reimage Only</button> <button type="provision" value="Provision" style="height:25;width:150">Reimage & Provision</button></p>
-        <p><button type="exit" value="Exit">Exit</button></p>
+        <p><button name="btn" type="reimage" value="reimage" style="height:25;width:150">Reimage Only</button> <button name="btn" type="provision" value="provision" style="height:25;width:150">Reimage & Provision</button></p>
+        <p><button name="btn" type="exit" value="exit">Exit</button></p>
       </form>
     </div>
 </body>

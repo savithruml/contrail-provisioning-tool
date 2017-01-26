@@ -1,0 +1,26 @@
+<html>
+<body>
+  <section class="container">
+    <div class="login" align="center">
+      <IMG SRC="http://techspirit.in/wp-content/uploads/2015/07/juniper.png" WIDTH=400 HEIGHT=200>
+      <form method="POST" action="/provision" enctype=multipart/form-data>
+        <p>Target Node <input type="text" name="target-node-ip" required value"" placeholder="Enter IP address">
+	Root Password <input type="password" name="target-node-password" required value"" placeholder="Enter root password"></p>
+        <p>Base Image <select name="image">
+          <option value="ubuntu-14-04-4">Ubuntu 14.04.4</option>
+          <option value="ubuntu-14-02-2">Ubuntu 14.02.2</option>
+        </select></p>
+        <p>Contrail Package <select name="package">
+          <option value="contrail-3-0-2">Contrail 3.0.2</option>
+          <option value="contrail-3-0-3">Contrail 3.0.3</option>
+          <option value="contrail-3-1">Contrail 3.1</option>
+          <option value="contrail-3-2">Contrail 3.2</option>
+        </select> &nbsp;Build Number <input type="text" name="build-number" style="height:18;width:30" required value""></p>
+	<p>Testbed File <input type="file" name="testbed-file" value="fileupload" id="fileupload"></p>
+        <p></p>
+        <p><button type="reimage" value="reimage" style="height:25;width:150">Reimage Only</button> <button type="provision" value="Provision" style="height:25;width:150">Reimage & Provision</button></p>
+        <p><button type="exit" value="Exit">Exit</button></p>
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+  <section class="container">
+    <div class="login" align="center">
+      <IMG SRC="http://techspirit.in/wp-content/uploads/2015/07/juniper.png" WIDTH=400 HEIGHT=200>
+      <form method="POST" action="/date">
+        <p>Target Node <input type="text" name="target-node" required value"" placeholder="Enter the target IP"></p>
+        <select name="image">
+          <option value="ubuntu-14-04-4">Ubuntu 14.04.4</option>
+        </select>
+	<p>Base Image <input type="text" name="base-image" required value"" placeholder="Enter the image"></p>
+        <p>Testbed File <input type="file" name="fileupload" value="fileupload" id="fileupload"></p>
+        <p></p>
+        <p><button type="reimage" value="reimage" style="height:20;width:100">Reimage Only</button> <button type="provision" value="Provision" style="height:20;width:100">Provision</button></p>
+        <p><button type="exit" value="Exit">Exit</button></p>
+      </form>
+    </div>
+</body>
+</html>

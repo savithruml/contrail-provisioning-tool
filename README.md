@@ -4,4 +4,4 @@
 
 ## Run & map the exposed container port to host port
         
-        docker run -p 10001:10001 -itd savvythru/contrail-provisioning-tool
+        docker run -p 10001:10001 -itd --name contrail-provisioning-tool savvythru/contrail-provisioning-tool

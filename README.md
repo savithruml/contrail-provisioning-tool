@@ -18,4 +18,4 @@
 
 ### Provision<br /><br />![Provision](https://github.com/savithruml/contrail-provisioning-tool/blob/master/screenshots/provision_empty.png "Provision")
 
-### Provision Data<br /><br />![Provision Data](https://github.com/savithruml/contrail-provisioning-tool/blob/master/screenshots/provision_data.png "Provision Data")
+### Provision Params<br /><br />![Provision Params](https://github.com/savithruml/contrail-provisioning-tool/blob/master/screenshots/provision_data.png "Provision Params")
